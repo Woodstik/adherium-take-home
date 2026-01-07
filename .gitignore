@@ -1,0 +1,72 @@
+# ===============================
+# Android / Gradle
+# ===============================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# ===============================
+# Android Studio
+# ===============================
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+
+# ===============================
+# Kotlin
+# ===============================
+.kotlin/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# IntelliJ / JVM
+# ===============================
+out/
+
+# ===============================
+# NDK / CMake
+# ===============================
+.externalNativeBuild/
+.cxx/
+
+# ===============================
+# Firebase / Crashlytics
+# ===============================
+google-services.json
+crashlytics.properties
+fabric.properties
+
+# ===============================
+# Secrets / Env
+# ===============================
+*.keystore
+*.jks
+*.env
